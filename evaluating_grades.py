@@ -28,12 +28,12 @@ while(a<5):
         
 print("\n\n")
 print("for the math course the minmum, maximum, median, variance, standard deviation equal with :")
-min_grade=np.min(students_grade[0])
+min_grade=np.min(students_grade[:,0])
 print("minimum grade is ",min_grade)
 
-max_grade = np.max(students_grade[0])
+max_grade = np.max(students_grade[:,0])
 print("maximum grade is",max_grade)
 
-print("the median of the scores is",np.median(students_grade[0]))
-print("the variance of the scores is",np.var(students_grade[0]))
-print("the standard deviation of the scores is",np.std(students_grade[0]))
+print("the median of the scores is",np.median(students_grade[:,0]))
+print("the variance of the scores is",np.var(students_grade[:,0]))
+print("the standard deviation of the scores is",np.std(students_grade[:,0]))
